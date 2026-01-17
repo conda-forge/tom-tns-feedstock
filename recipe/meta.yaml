@@ -1,5 +1,5 @@
 {% set name = "tom-tns" %}
-{% set version = "0.3.3" %}
+{% set version = "0.3.5" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/tom_tns-{{ version }}.tar.gz
-  sha256: d5be2c5efe52d087d7d603a16f66f1928d2ba70b035a7522cd9270bd19c965d0
+  sha256: a0802e46029268c6b940377bb7935888b81ffe764c0a1cd0a50619396181fa55
 
 build:
   noarch: python
